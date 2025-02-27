@@ -18,17 +18,8 @@
 
 
 
-![image-20250227161125680](.assets/image-20250227161125680.png) 
+![image-20250227163958310](.assets/image-20250227163958310.png) 
 
 
 
-[image-20250227161125680](.assets/image-20250227161125680.png)
-
-
-
-![image-20250227161125680](.assets/image-20250227161125680.png)
-
-
-
-https://github.com/mainzh/mainzh.github.io/blob/main/.assets/image-20250227161125680.png
-
+![Snipaste_2025-02-27_16-42-23](.assets/Snipaste_2025-02-27_16-42-23.jpg) 
