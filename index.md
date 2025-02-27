@@ -10,7 +10,7 @@
 
 
 
-[自述文件](./README.md)
+[仓库](https://github.com/mainzh/mainzh.github.io)
 
 
 
