@@ -4,8 +4,8 @@
 
 The source code of the homepage website I use myself has a simple interface, but it includes a rich and sufficient number of modules:
 
-![imbyter](/screenshots/light.jpg)
-![imbyter](/screenshots/dark.jpg)
+![imbyter](/image/light.jpg)
+![imbyter](/image/dark.jpg)
 
 > The original project author is [@ZYYO666](https://github.com/ZYYO666). Most of the functions were completed by the original author, and I([@imbyter](https://github.com/imbyter)) only made secondary optimizations to the interface details and organized the code format based on the original version
 
