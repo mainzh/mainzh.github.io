@@ -1,30 +1,38 @@
-这是 [个人站点](https://mainzh.github.io/)
+简体中文 | [English](./README_EN.md)
 
-以下是对 个人站点 项目的说明
+## imbyter - 个人主页
 
-其中 index.html 文件是 个人站点 的主页
+我自己使用的主页网站源码，界面简洁，但包括的模块丰富够用：
 
-主要用来展示：个人简历、名片、项目
+![imbyter主页](/screenshots/light.jpg)
+![imbyter主页](/screenshots/dark.jpg)
 
-注意：隐私信息不能暴露
+> 原项目作者[@ZYYO666](https://github.com/ZYYO666)，基本所有功能均由原作者完成，我([@imbyter](https://github.com/imbyter))仅在原版基础上对界面细节进行了二次优化，并规整了代码格式。
 
-文件结构：
-个人主页/
-│
-├── index.html # 个人主页
-├── resume.html # 简历页面
-├── about.html # 自我介绍页面
-├── projects.html # 项目展示页面
-├── blog.html # 博客页面
-├── styles.css # 共用样式文件
-├── images/ # 图片文件夹
-│ ├── banner1.jpg # 轮播图 1
-│ ├── banner2.jpg # 轮播图 2
-│ ├── banner3.jpg # 轮播图 3
-│ └── avatar.jpg # 个人头像
-├── music/ # 音乐文件夹
-│ └── background.mp3 # 背景音乐
-├── videos/ # 视频文件夹
-│ └── project1.mp4 # 项目演示视频
-└── files/ # 文件文件夹
-└── example.pdf # 示例 PDF 文件
+最终效果：[https://imbyter.com](https://imbyter.com)
+
+### 🎉 功能特点
+
+- [x] 纯静态（HTML+CSS+JS）
+- [x] 响应式
+- [x] 内置5套可选主题
+- [x] 明暗模式切换
+- [x] 体积精简，压缩后（含图片）仅有2.52 MB
+
+### ⚙️ 部署使用
+
+因为项目为纯静态页面，下载后直接直接打开根目录 `index.html` 即可访问。
+
+- 服务器部署时**不**需要任何依赖环境😀。
+
+### 🥝 其它说明
+
+- 页面底部 **技术栈** 模块的图片可以使用 [skill-icons](https://github.com/tandpfun/skill-icons) 直接生成。也可以在其生成后，离线保存为`svg`格式使用。
+
+- 背景大图在`\static\js\script.js`中动态实现加载：
+  - 当在移动端打开页面时（通过`isMobile`函数进行判断），直接以暗黑模式显示，不加载背景大图。
+  - 当在PC端打开页面时，默认显示亮色模式，并且主动加载背景大图。
+
+- PC端页面默认**显示**明暗模式切换按钮，移动端页面**隐藏**了明暗模式切换按钮。可以在`\static\css\style.css`中自定义修改。
+
+- PC端页面默认有5个主题可选，可以在`\static\css\theme.css`中自由切换（显示页面中不支持切换）。
